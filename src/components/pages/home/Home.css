@@ -1,0 +1,32 @@
+.homewrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: scroll;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    overflow: scroll;
+    height: -webkit-fill-available;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+@media (min-width: 768px) {
+    .home {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.search-bar {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}

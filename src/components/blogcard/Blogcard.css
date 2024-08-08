@@ -1,0 +1,9 @@
+.blogwrap {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b212c;
+  color: white;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  height: 6rem;
+}
