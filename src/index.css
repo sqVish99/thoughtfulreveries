@@ -54,11 +54,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 ::-webkit-scrollbar-track {
-  background: #13002e;
+  background: #311a50;
   border-radius: 1.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3e075d;
+  background: #1e1435;
   border-radius: 1.5rem;
 }

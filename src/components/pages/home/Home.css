@@ -34,7 +34,7 @@
     font-size: 2.75rem;
     padding: 0.5rem;
     border-radius: 1.5rem;
-    background-color: #241742;
+    background-color: #1e1435;
 }
 
 .searchbar {
@@ -44,12 +44,15 @@
     border-radius: 1.5rem;
     width: 100%;
     box-sizing: border-box;
-    background-color: #241742;
+    background-color: #1e1435;
     color: whitesmoke
 }
 
 .searchbar:focus-visible {
     border: 0.2rem solid whitesmoke;
     outline: none;
-    background-color: #2d214a;
+}
+
+.searchbar:focus-visible + .searchicon {
+    border: 0.2rem solid whitesmoke;
 }
