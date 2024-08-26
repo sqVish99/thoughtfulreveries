@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Home from './components/pages/home/Home';
-import Blog from './components/pages/blog/Blog';
+import Blog from './components/pages/blog/BlogDetail';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<Blog />} />
         </Routes>
         <Footer />
       </div>

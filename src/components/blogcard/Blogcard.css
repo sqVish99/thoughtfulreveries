@@ -7,3 +7,12 @@
   padding: 1rem;
   height: 6rem;
 }
+
+.blogwrap:hover {
+  background-color: #25303e;
+  cursor: pointer;
+}
+
+.blog-content {
+  overflow: hidden;
+}

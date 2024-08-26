@@ -1,10 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/');
+  };
+
   return (
     <header>
-      <h1>Thoughtful Reveries</h1>
+      <h1 onClick={handleClick} style={{ cursor: 'pointer' }}>Thoughtful Reveries</h1>
     </header>
   );
 };
