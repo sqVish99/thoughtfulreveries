@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/thoughtfulreveries/static/css/main.536f9374.css",
-    "main.js": "/thoughtfulreveries/static/js/main.0ce1fa5c.js",
+    "main.css": "/thoughtfulreveries/static/css/main.4c5430e4.css",
+    "main.js": "/thoughtfulreveries/static/js/main.42037e0f.js",
     "static/js/453.188accc6.chunk.js": "/thoughtfulreveries/static/js/453.188accc6.chunk.js",
+    "static/media/logo.png": "/thoughtfulreveries/static/media/logo.e17b51b8a77ad144d9aa.png",
+    "static/media/linkedin.svg": "/thoughtfulreveries/static/media/linkedin.2ca7b8070711a7e7849e1ae814e38151.svg",
+    "static/media/github.svg": "/thoughtfulreveries/static/media/github.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/thoughtfulreveries/index.html",
-    "main.536f9374.css.map": "/thoughtfulreveries/static/css/main.536f9374.css.map",
-    "main.0ce1fa5c.js.map": "/thoughtfulreveries/static/js/main.0ce1fa5c.js.map",
+    "static/media/email.svg": "/thoughtfulreveries/static/media/email.64e2d59d7a00892661e951d283c203ed.svg",
+    "main.4c5430e4.css.map": "/thoughtfulreveries/static/css/main.4c5430e4.css.map",
+    "main.42037e0f.js.map": "/thoughtfulreveries/static/js/main.42037e0f.js.map",
     "453.188accc6.chunk.js.map": "/thoughtfulreveries/static/js/453.188accc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.536f9374.css",
-    "static/js/main.0ce1fa5c.js"
+    "static/css/main.4c5430e4.css",
+    "static/js/main.42037e0f.js"
   ]
 }
