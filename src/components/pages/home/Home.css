@@ -12,7 +12,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     overflow-y: scroll;
-    height: -webkit-fill-available;
+    height: auto;
     justify-content: center;
     width: -webkit-fill-available;
 }
@@ -20,6 +20,7 @@
 @media (min-width: 768px) {
     .home {
         grid-template-columns: 1fr 1fr;
+        height: auto;
     }
 }
 

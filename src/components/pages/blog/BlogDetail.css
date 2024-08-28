@@ -24,6 +24,7 @@
 
 .blog-content-detail {
     text-align: justify;
-    width: -webkit-fill-available;
+    width: 80%;
     text-indent: 5%;
+    font-size: 1rem;
 }

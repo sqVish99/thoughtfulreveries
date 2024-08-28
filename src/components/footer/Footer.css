@@ -6,4 +6,41 @@ footer {
     color: white;
     font-family: Arial, sans-serif;
     width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;;
+}
+
+.footer-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+.email-icon {
+    width: 1.5rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid white;
+}
+
+.github-icon {
+    width: 1.5rem;
+    border-radius: 0.7rem;
+    background-color: white;
+    border: 0.1rem solid white;
+}
+
+.my-logo {
+    width: 1.5rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid white;
+}
+
+.linkedin-icon {
+    width: 1.5rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid white;
 }

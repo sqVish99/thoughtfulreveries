@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header>
-      <h1 onClick={handleClick} style={{ cursor: 'pointer' }}>Thoughtful Reveries</h1>
+      <h1 className='header-content' onClick={handleClick}>Thoughtful Reveries</h1>
     </header>
   );
 };
