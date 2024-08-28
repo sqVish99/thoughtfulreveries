@@ -1,20 +1,27 @@
 header {
-    background-color: #13171e;
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 1.5rem;
-    color: white;
-    font-family: Arial, sans-serif;
-    width: -webkit-fill-available;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
+  background-color: #13171e;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  color: white;
+  font-family: Arial, sans-serif;
+  width: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 3rem;
 }
 
 .header-content {
-    width: max-content;
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 500;
+  width: -webkit-fill-available;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.back-button {
+  width: 2rem;
+  background: white;
+  border-radius: 1rem;
 }
